@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Checkout Form</title>
+    <script
+      src="https://kit.fontawesome.com/b6f073fba6.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="../css/style.css" />
+  </head>
+  <body>
+    <nav class="side-nav col-2 about-nav">
+      <div class="nav-list">
+        <a href="../index.html"
+          ><i class="fa-solid fa-house"></i
+          ><span class="display-mobile">Home</span></a
+        >
+        <a href="../html/about-us.html"
+          ><i class="fa-solid fa-circle-info"></i>
+          <span class="display-mobile">About Us</span></a
+        >
+        <a href="../html/contact-us.html"
+          ><i class="fa-solid fa-envelope"></i>
+          <span class="display-mobile">Contact Us</span></a
+        >
+        <a href="../html/checkout.html"
+          ><i class="fa-solid fa-cart-shopping"></i>
+          <span class="display-mobile">Checkout</span></a
+        >
+      </div>
+    </nav>
+
+    <div class="main-container form col-10">
+      <form action="" class="filter-search-container about-nav-mobile">
+        <div class="category-search">
+          <div class="bars display-desktop">
+            <i class="fa-solid fa-bars"></i>
+          </div>
+        </div>
+      </form>
+      <form action="" class="checkout-form-container">
+        <div class="checkout-address-container">
+          <p>Shipping Address</p>
+          <label for="firstname">Firstname</label>
+          <input type="text" name="firstname" id="firstname" />
+          <label for="lastname">Lastname</label>
+          <input type="text" name="lastname" id="lastname" />
+          <label for="street">Street</label>
+          <input type="text" name="street" id="street" />
+          <label for="state">State / Province</label>
+          <input type="text" name="state" id="state" />
+          <label for="city">City</label>
+          <input type="text" name="city" id="city" />
+          <label for="region">Region</label>
+          <select name="region" id="region">
+            <option value="NCR">National Capital Region</option>
+            <option value="CAR">Cordillera Administrative Region</option>
+            <option value="1">Region I</option>
+            <option value="2">Region II</option>
+            <option value="3">Region III</option>
+            <option value="4-A">Region IV-A</option>
+            <option value="Mimaropa">Mimaropa</option>
+            <option value="5">Region V</option>
+            <option value="6">Region VI</option>
+            <option value="7">Region VII</option>
+            <option value="8">Region VIII</option>
+            <option value="9">Region IX</option>
+            <option value="10">Region X</option>
+            <option value="11">Region XI</option>
+            <option value="12">Region XII</option>
+            <option value="16">Region XVI</option>
+            <option value="BARMM">
+              Bangsamoro Autonomous Region in Muslim Mindanao
+            </option>
+          </select>
+          <label for="postal">Postal / Zip Code</label>
+          <input type="number" name="postal" id="postal" />
+          <label for="email">Email</label>
+          <input type="email" name="email" id="email" />
+          <label for="contact-number">Contact Number</label>
+          <input type="number" name="contact-number" id="contact-number" />
+        </div>
+        <div class="checkout-payment-container">
+          <p>Payment Method</p>
+          <div>
+            <input type="radio" name="mop" id="gcash" value="gcash"/>
+            <label for="gcash"><i class="fa-solid fa-g"></i>Gcash</label>
+          </div>
+          <div>
+            <input type="radio" name="mop" id="cod" value="cod"/>
+            <label for="cod"
+              ><i class="fa-solid fa-money-bill"></i>Cash on Delivery</label
+            >
+          </div>
+          <div>
+            <input type="radio" name="mop" id="cc-dc" value="cc-dc"/>
+            <label for="cc-dc"
+              ><i class="fa-solid fa-credit-card"></i>Credit Card / Debit
+              Card</label
+            >
+          </div>
+        </div>
+        <div class="checkout-orders-container">
+          <div class="orders-price-container">
+            <div class="orders">
+              <p>Your Order/s</p>
+              <p>To Kill A Mockingbird</p>
+              <p>The Great Gatsby</p>
+              <p>Total:</p>
+            </div>
+            <div class="price">
+              <p>Price/s</p>
+              <p>₱2999.99</p>
+              <p>₱2999.99</p>
+              <p>₱5,999.98</p>
+            </div>
+          </div>
+          <div class="checkout-buy-btn">
+            <button>Buy Now</button>
+          </div>
+        </div>
+      </form>
+    </div>
+    <footer>
+      <a href="#">Privacy Policy</a>
+      <a href="#">Terms and Condition</a>
+      <a href="#">Copyright © 2022 Jefgrim Alvar</a>
+    </footer>
+  </body>
+</html>
