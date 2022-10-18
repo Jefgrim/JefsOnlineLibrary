@@ -120,6 +120,10 @@ body {
   border-color: beige;
 }
 
+.bars {
+  color: white;
+}
+
 .category-search {
   margin-left: 10px;
 }
